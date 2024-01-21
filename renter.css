@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    margin: 0;
+}
+h1{
+    color: #2a2929aa;
+    font-size: 3.2rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+span , .body-main{
+    font-size: 1.4rem;
+}
+.heading-address , .heading-phone , .heading-email , .body-title{
+    color: #2a2929aa;
+    font-weight: 500;
+
+}
+.main_right .body-main .body-title{
+    display: flex;
+
+}
+.body-main .body-title span{
+    font-size: 1.5rem;
+    padding-left: 0.7rem;
+}
+.body-main .body-title{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+.body_search{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+.bar_search .ip_btn input {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+.bar_search{
+    display: flex;
+}
+.bar_search .btn_sear .btn_search{
+    font-size: 1rem;
+    
+}
+.main_right{
+    width: 100%;
+}
+.bar_search .btn_sear button {
+    padding: 0.5rem 1rem 11px 5px;
+    border: none;
+    background-color:#5C95C5 ;
+    border-radius: 0px 8px 8px 0px;
+    color: #ddd;
+    font-weight: 600;
+
+}
+/* start btn add renter */
+.main_right .body-title .btn_add_new_renter .add_renter{
+    padding: 0.8rem;
+    margin-left: 3rem;
+    color: #fff;
+    background: #25B343;
+    border: none;
+    border-radius: 4px;
+    
+}
+/* end btn add renter */
+
+/* Start title */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    background-color: #3399FF;
+    width: 100%;
+    height: 45px
+}
+.header_1{
+    display: flex;
+}
+.header_left{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 14px 0 14px 44px;
+    position: relative;
+}
+.header_right{
+    position: absolute;
+    right: 0;
+    padding: 14px 44px 14px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.main{
+    display: flex;
+    background-color: #CCCCCC;
+}
+
+.main_left{
+    width: 22%;
+    background-color: #777777;
+    height: auto;
+    position: relative;
+    min-height: 629px;
+}
+.main_left a {
+    display: block;
+    text-decoration: none; /* Xóa gạch chân dưới liên kết */
+    padding: 15px 22px;
+    background-color: #DDDDDD;
+    color: black;
+    font-weight: bold;
+}
+.main_left .content1 {
+    background-color: black;
+    color: white;
+}
+
+.main_left a:hover{
+    background-color: black;
+    color: white;
+}
+
+.main_manager{
+    position: absolute;
+    width: 77%;
+    height: 40%;
+    background-color: #EEEEEE;
+    left: 21%;
+    top: 10%;
+}
+.main_manager_frame{
+    width: 96%;
+    height: 88%;
+    margin: 15px 20px;
+}
+
+.main_manager_frame>p{
+    border-bottom: 1px solid #DDDDDD;
+    padding: 10px 0;
+}
+.main_manager_bottom{
+    display: flex;
+}
+.main_content{
+    border: 1px solid #3399FF;
+    width: 300px;
+    height: 155px;
+    margin: 15px 20px;
+    border-radius: 3px;
+}
+.main_content1{
+    background-color: #3399FF;
+    width: 298px;
+    height: 120px;
+    border-radius: 3px 3px 0 0;
+}
+.main_content1 p{
+    padding: 49px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.main_content2 p{
+    padding-left: 255px;
+    padding-top: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+/* ENd title */
+
+
+/* start body_main_renter */
+.body_main_renter{
+    background-color: #fff;
+    margin: 2rem 1.5rem;
+    border-radius: 2px;
+    border: 1px solid #bfbbbb;
+
+}
+
+
+/* end body_main_renter */
+
+/* start table_infor_renter */
+.table_infor_renter{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.table_infor_renter th{
+    font-weight: lighter;
+}
+.table_infor_renter table tr:nth-child(2n+1){
+    background-color: #f2f2f2;
+}
+.table_infor_renter table th,td{
+    text-align: left;
+    padding: 0.5rem;
+}
+
+.table_infor_renter table thead th{
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #fff;
+}
+.table_infor_renter table{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+.table_infor_renter tbody tr .btn_modify_renter{
+    border: #15B5C1 1px solid;
+    padding: 0.5rem;
+    background-color: #b2faff;
+}
+.table_infor_renter tbody tr .btn_del_renter{
+    border: #F16276 1px solid;
+    padding: 0.5rem;
+    background-color: #f6b9c2;
+}
+.table_infor_renter tbody tr .btn_add_renter{
+    padding: 0.5rem;
+    border: #25B343 solid 1px;
+    background-color: rgb(227, 255, 233);
+}
+
+
+/* end table_infor_renter */
+
+
+/* danh sach */
+.card{
+    width: 1000px;
+    margin: 50px;
+}
+.table td a{
+    border: #15B5C1 1px solid;
+    padding: 0.5rem;
+    background-color: #b2faff;
+}
+.table a:hover{
+    border: #F16276 1px solid;
+    background-color: #f6b9c2;
+}
+.card>button{
+    width: 100px;
+    position: relative;
+    left: 880px;
+    margin-top: 10px;
+    top: -37px;
+}
+.card>input{
+    width: 200px;
+    position: relative;
+    left: 650px;
+    margin-top: 10px;
+}
+.btn-success{
+    margin-top: 10px;
+}
+.table td a{
+    margin-left: -7px;
+    text-decoration: none;
+    color: black;
+}
+
+/* log out */
+.logout-link {
+    display: none;
+    color: black; /* Màu đỏ */
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.login-link {
+    display: none;
+    color: #008CBA; /* Màu xanh dương */
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.logout-link {
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    top: -3px;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.admin-label:active + .login-link {
+    color: #008CBA; /* Màu xanh dương khi hover */
+}
+
+.admin-label:active + .logout-link {
+    display: none;
+}
+
+.admin-label:hover + .login-link {
+    color: #33CC33; /* Màu xanh lá cây khi hover */
+}
+
+.admin-label:hover + .logout-link {
+    color: red;
+}
